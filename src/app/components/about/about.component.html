@@ -1,0 +1,13 @@
+<!-- *ngIf="products.length === 0" -->
+
+<div *ngIf="pics.length === 0">Loading....</div>
+
+<div *ngFor="let pic of pics" class="cards">
+  <div class="inner">
+    <img src="{{ pic.url }}">
+    <div>
+      <p>{{ pic.title }}</p>
+    </div>
+  </div>
+
+</div>

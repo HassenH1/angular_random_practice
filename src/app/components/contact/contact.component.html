@@ -1,0 +1,27 @@
+<div class='fl'>
+
+<div class='div'>
+  <h2>What did you type?</h2>
+  <br />
+  <p>{{ name }}</p>
+</div>
+
+<div class='div'>
+  <h3>on Submit:</h3>
+  <br />
+  <p>{{ display }}</p>
+</div>
+
+</div>
+
+<form class="form" (ngSubmit)="onSubmit()">
+  <input type="text" name="name" [(ngModel)]="name" placeholder="Type a name">
+  <button type="submit" value="submit">Submit</button>
+</form>
+
+<!-- <hr />
+
+<div class="about">
+  <h3>About this Page</h3>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione accusamus beatae illum quo repellendus culpa temporibus, obcaecati suscipit tempora excepturi magni est commodi alias quasi rem maiores debitis sunt dignissimos! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos porro assumenda ipsam. Architecto alias molestiae cum eos modi dolorum culpa omnis, hic, eligendi dolorem et sed laudantium, iusto cupiditate quam.</p>
+</div> -->

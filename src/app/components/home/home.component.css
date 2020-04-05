@@ -1,0 +1,52 @@
+.bg {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1512688553530-9d6e0894b89e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+
+  /* Full height */
+  height: 50rem; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h3 {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 8rem;
+}
+
+.head {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.main {
+  height: auto;
+  border: 1px solid #efefef;
+  margin: 5rem 2rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 40rem; */
+}
+
+#first {
+  margin-top: 0;
+  flex-direction: row;
+}
+
+.fp {
+  width: 30em;
+  font-size: 1.6rem;
+  margin: auto 0;
+}
